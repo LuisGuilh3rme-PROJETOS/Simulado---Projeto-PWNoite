@@ -15,7 +15,7 @@
         ?>
         <div class="questao">
             <h2>Pergunta N° <?php echo $quantidade ?></h2>
-            <p id="#pergunta"><?php echo $linha["pergunta"]; ?></p>
+            <p class="pergunta"><?php echo $linha["pergunta"]; ?></p>
             <div class="alternativa" onClick="h(this)">
                 <input type="radio" class="radio" name=<?php echo $linha["id"] ?> value='A' /> <?php echo $linha["a"]; ?>
             </div>

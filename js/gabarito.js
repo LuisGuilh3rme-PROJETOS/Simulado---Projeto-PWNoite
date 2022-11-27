@@ -4,8 +4,8 @@ const altCorretas = perguntas.length - altErradas;
 
 document.querySelector("#nota").innerHTML += `${altCorretas}/${perguntas.length}`;
 document.querySelector("#percentual").innerHTML += `${altCorretas/perguntas.length * 100}%`;
+
 perguntas.forEach((pergunta) => {
-    console.log(pergunta);
     let altEscolhida;
     (pergunta.querySelector("#errada")) ? altEscolhida = pergunta.querySelector("#errada") : altEscolhida = pergunta.querySelector("#certa");
     const p = document.createElement("p");

@@ -13,7 +13,8 @@ addEventListener("submit", e => {
         return;
     }
     if (url.has("ignorar")) return;
-    const quantidade = document.querySelectorAll("#pergunta").length;
+
+    const quantidade = document.querySelectorAll(".pergunta").length;
     if (inputs.length != quantidade) {
         e.preventDefault();
         avisarErro("Responda todas as questões");

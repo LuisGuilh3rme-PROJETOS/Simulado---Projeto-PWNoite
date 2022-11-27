@@ -52,7 +52,7 @@
             <h2>Opções</h2>
             <form action="./simulado.php" method="get" id="formResponder">
                 <label for="quantidade">Quantidade de questões: </label>
-                <select name="quantidade">
+                <select name="quantidade" title="Escolha quantidade de questões">
                     <option value="5">5</option>
                     <option value="10" selected>10</option>
                     <option value="15">15</option>

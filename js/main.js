@@ -21,14 +21,4 @@ btnCriar.addEventListener("click", e => {
         e.preventDefault();
         alert(errors);
     }
-    return;
 })
-
-const formResponder = document.querySelector("#formResponder");
-const btnResponder = document.querySelector("#btnResponder");
-
-// btnResponder.addEventListener("click", e => {
-//     alert("clicou");
-//     const checkbox = document.querySelector('input[name="ignorar"]:checked');
-//     console.log(checkbox);
-// })

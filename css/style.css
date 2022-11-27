@@ -7,15 +7,20 @@ input[type=text] {
     padding: 0.5rem;
 }
 
-select {
-    color: black;
+input[type=checkbox] {
+    cursor: pointer;
+    margin-right: 0.5rem;
 }
 
-select option {
-    color: black;
+select {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.2rem;
+    background-color: #1E1E1E;
 }
 
 #menu {
+    -webkit-user-select: none;
     user-select: none;
     align-self: center;
     display: flex;
@@ -70,7 +75,8 @@ select option {
 }
 
 #btnCriar, #btnResetar, #btnResponder {
-    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     padding: 0.5rem;
     border: none;
     border-radius: 10px;
