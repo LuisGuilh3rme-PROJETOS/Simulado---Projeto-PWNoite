@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+#simulado {
+    width: 80%;
+    align-self: center;
+}
+
+#btns {
+    align-self: flex-end;
+}
+
+#btnEnviar, #btnResetar, a {
+    padding: 0.5rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+}
+
+#btnEnviar:hover, #btnResetar:hover, a:hover {
+    cursor: pointer;
+    background-color: red;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+}
+
+.questao {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 0.5rem;
+    background-color: #1E1E1E;
+}
+
+.alternativa {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #121212;
+}
+
+.alternativa:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
